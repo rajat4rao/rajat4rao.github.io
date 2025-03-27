@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loader {
+    color: #a066da;
+    height: 160px;
+    width: 160px;
+  }
+
+  .loader_animation {
+    animation: rotate 4s linear infinite;
+  }
+
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 150;
+      stroke-dashoffset: 0;
+    }
+
+    50% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -35;
+    }
+
+    100% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -125;
+    }
+  }
+
+  .loader__bg-circle {
+    color: rebeccapurple;
+    opacity: 0.4;
+  }
+
+  .loader__circle_animation {
+    animation: dash 2s ease-in-out infinite;
+  }
