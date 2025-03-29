@@ -180,11 +180,17 @@ const Home = () => {
                     <div ref={introRef} className="relative z-10">
                         <h1 className="text-3xl font-bold leading-tight text-shadow-md mb-4">
                             Rajat P Rao <br/>
-                            <span className="text-purple-500 font-normal text-xl">Full Stack Developer|Data Science Enthusiast</span> <br/>
+                            <span className="text-purple-500 font-normal text-xl">Full Stack Developer</span> <br/>
                         </h1>
 
 
+                        {/* Call to Action Buttons - Outline Style */}
+                        <div ref={buttonsRef} className="flex gap-6 mt-6 relative z-10 justify-center lg:justify-start">
 
+                            <a href={personalData.resume} target="_blank" rel="noopener noreferrer"   className="flex flex-row items-center gap-2 transition-transform transform hover:scale-105  text-white px-4 py-2 rounded-md font-bold z-10 hover:scale-110 border border-purple-500 hover:bg-purple-500 bg-transparent">
+                                Get Resume <FaDownload />
+                            </a>
+                        </div>
                     </div>
                 </div>
 

@@ -5,7 +5,6 @@ import { Globe } from "lucide-react";
 import PreviewProject1 from "@assets/PreviewProject1.png";
 import  PreviewProject2 from "@assets/PreviewProject2.png";
 import  PreviewProject3 from "@assets/PreviewProject3.png";
-import  DataScienceP from "@assets/DataScience.jpg";
 
 // Define Project Data
 const projects = [
@@ -36,23 +35,6 @@ const projects = [
     image:
     PreviewProject3,
     sourceCode: "https://github.com/rajat4rao/vehiclerental",
-  },
-
-  {
-    title: "Sales Forecasting to Optimize Retail Supply Chain",
-    description:
-      "Developed a machine learning model (Random Forest) using Python (Pandas, Scikit-learn) to predict weekly retail sales. Focused on optimizing supply chain operations by improving inventory management and identifying key sales drivers from historical data.", // Updated Description
-    techStack: ["Python", "Pandas", "NumPy", "Scikit-learn", "Machine Learning", "Random Forest", "Plotly", "Seaborn", "Git"], 
-    image: DataScienceP,
-    sourceCode: "https://github.com/rajat4rao/sales-forecast-optimize-supply",
-  },
-  {
-    title: "Food Demand Analysis for Inventory Optimization", 
-    description:
-      "Analyzed historical food demand for a meal delivery service using Tableau. Created interactive dashboards and a data story to visualize demand patterns, identify key trends, and provide insights for optimizing perishable inventory management and fulfillment center staffing.", // Updated Description
-    techStack: ["Tableau", "Data Analysis", "Data Visualization", "Demand Forecasting", "CSV", "Git"], 
-    image: DataScienceP, 
-    sourceCode: "https://github.com/rajat4rao/food-demand-inventory-opt",
   },
 
 ];
